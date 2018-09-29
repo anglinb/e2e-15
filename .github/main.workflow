@@ -1,5 +1,5 @@
 workflow "hello" {
-  on = "push"
+  on = "repository_dispatch"
   resolves = ["world"]
 }
 
